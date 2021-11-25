@@ -45,13 +45,13 @@ MRCN | MSCA-adp  | R-50   |   |  | [Model+Config]()
 Train script:
 
 ```
- CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7  python -m torch.distributed.launch --nproc_per_node=8 --master_port=${PORT:-991}    tools/train.py --config [config]  --work-dir [work-dir]  --launcher pytorch
+ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7  python -m torch.distributed.launch --nproc_per_node=8 --master_port=${PORT:-991}    tools/train.py  [config]  --launcher pytorch
 ```
 
 Exmaple:
 
 ```
- CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7  python -m torch.distributed.launch --nproc_per_node=8 --master_port=${PORT:-991}    tools/train.py --config   --work-dir    --launcher pytorch
+ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7  python -m torch.distributed.launch --nproc_per_node=8 --master_port=${PORT:-991}    tools/train.py  ./data/models/cmrcn_r101_mssa_adp/cmrcn_r101_mssa_adp.py  --launcher pytorch
 ```
 
 Test script:
@@ -63,7 +63,7 @@ Test script:
 Example:
 
 ```
- CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7  python  -m torch.distributed.launch --nproc_per_node=8  --master_port=${PORT:-991} tools/test.py    --launcher pytorch  --eval bbox segm
+ CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7  python  -m torch.distributed.launch --nproc_per_node=8  --master_port=${PORT:-991} tools/test.py  ./data/models/cmrcn_r101_mssa_adp/cmrcn_r101_mssa_adp.py  ./data/models/cmrcn_r101_mssa_adp/final.pth  --launcher pytorch  --eval bbox segm
 ```
 
  
