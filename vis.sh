@@ -1,4 +1,0 @@
-CUDA_VISIBLE_DEVICES=8 python ./tools/test.py configs/tr/cascade_mask_rcnn_r101_fpn_1x_coco.py  work_dirs/cascade_mask_rcnn_r101_fpn_1x_coco/epoch_10.pth  --launcher none --show-dir data/vis/mssa/ --show-score-thr 0.6
-CUDA_VISIBLE_DEVICES=8 python ./tools/test.py configs/tr/cascade_mask_rcnn_r101_fpn_1x_coco_msca.py  work_dirs/cascade_mask_rcnn_r101_fpn_1x_coco_msca/epoch_10.pth  --launcher none --show-dir data/vis/msca/ --show-score-thr 0.6
-CUDA_VISIBLE_DEVICES=8 python ./tools/test.py configs/ablation/cascade_mask_rcnn_r101_fcat_1x_coco.py  work_dirs/cascade_mask_rcnn_r101_fcat_1x_coco/epoch_12.pth  --launcher none --show-dir data/vis/fcat/ --show-score-thr 0.6
-CUDA_VISIBLE_DEVICES=8 python ./tools/test.py configs/cascade_rcnn/cascade_mask_rcnn_r101_fpn_1x_coco.py  data/weights/cascade_mask_rcnn_r101_fpn_1x_coco_20200203-befdf6ee.pth  --launcher none --show-dir data/vis/fpn/ --show-score-thr 0.6
