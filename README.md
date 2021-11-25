@@ -20,6 +20,14 @@ Please refer to [get_started.md](docs/get_started.md#installation) for installat
 - Torchvision: 0.10.0
 - MMCV-full: 1.3.11
 
+### Apex (optional):
+We use apex for mixed precision training by default. To install apex, run:
+```
+git clone https://github.com/NVIDIA/apex
+cd apex
+pip install -v --disable-pip-version-check --no-cache-dir --global-option="--cpp_ext" --global-option="--cuda_ext" ./
+```
+
 ## Dataset
 
 Please download MSCOCO from [Official Website](https://cocodataset.org/#download), and unzip it in ./data folder (./data/coco/). 
@@ -29,16 +37,16 @@ Please download MSCOCO from [Official Website](https://cocodataset.org/#download
 
 Model | Module | Backbone | AP@val |  AP@test-dev | Link
 --- |:---:|:---:|:---:|:---:|:---:
-CMRCN | MSSA-Adp  | R-50   |  38.2/43.0 | 38.7/43.3 | [Config+Model]() 
-CMRCN | MSCA-Adp  | R-50   |  38.3/43.2 | 38.6/43.3 | [Config+Model]() 
-CMRCN | MSSA      | R-50   |  38.3/43.3 | 38.8/43.5 | [Config+Model]() 
-CMRCN | MSCA      | R-50   |  38.6/43.3 | 38.8/43.5 | [Config+Model]() 
-CMRCN | MSSA-adp  | R-101  |  39.3/44.4 | 39.8/44.8 | [Config+Model]() 
-CMRCN | MSCA-adp  | R-101  |  39.1/44.2 | 39.8/44.7 | [Config+Model]()
+CMRCN | MSSA-Adp  | R-50   |  38.2/43.0 | 38.7/43.3 | [Config+Model](https://drive.google.com/drive/folders/1IsvKaSSoA_MzkqqZLJ1QvRSuUOSnM0u1?usp=sharing) 
+CMRCN | MSCA-Adp  | R-50   |  38.3/43.2 | 38.6/43.3 | [Config+Model](https://drive.google.com/drive/folders/1PfoFdVq4jJevW_PHaXY8J8QGSMw6HDt9?usp=sharing) 
+CMRCN | MSSA      | R-50   |  38.3/43.3 | 38.8/43.5 | [Config+Model](https://drive.google.com/drive/folders/1ZOWb2xfP1CvSo30GDyOa-yPUOfNFzj0f?usp=sharing) 
+CMRCN | MSCA      | R-50   |  38.6/43.3 | 38.8/43.5 | [Config+Model](https://drive.google.com/drive/folders/14DqzJ48Duo7LNYbUSp3gaLclnfIOIsmL?usp=sharing) 
+CMRCN | MSSA-adp  | R-101  |  39.3/44.4 | 39.8/44.8 | [Config+Model](https://drive.google.com/drive/folders/1uLE-Ykt0gzbxE3dTx4ciZZOQRLKR-XhH?usp=sharing) 
+CMRCN | MSCA-adp  | R-101  |  39.1/44.2 | 39.8/44.7 | [Config+Model](https://drive.google.com/drive/folders/18XDibJD1WZsIgguLWfLN6jeq78GSN6qg?usp=sharing)
 CMRCN | MSSA-adp  | X-101  |  - | - | [Config+Model]() 
-CMRCN | MSCA-adp  | X-101  |  40.7/46.1  | 41.1/46.6 | [Config+Model]() 
-MRCN | MSSA-adp   | R-50   |  36.7/40.1 | - | [Config+Model]() 
-MRCN | MSCA-adp   | R-50   |  36.6/39.8 | - | [Config+Model]() 
+CMRCN | MSCA-adp  | X-101  |  40.7/46.1  | 41.1/46.6 | [Config+Model](https://drive.google.com/drive/folders/1P2bG83d-3nLmgoNPGj-wtMsme0q5JA0z?usp=sharing) 
+MRCN | MSSA-adp   | R-50   |  36.7/40.1 | - | [Config+Model](https://drive.google.com/drive/folders/1WyiXPAL4w0DlegpY3bUshBun1cAePT5o?usp=sharing) 
+MRCN | MSCA-adp   | R-50   |  36.6/39.8 | - | [Config+Model](https://drive.google.com/drive/folders/1eqtr6PZKz_S_hTa7ld3NumZakeahYLyL?usp=sharing) 
 
 [1] *We have re-trained some models and thus the results may be slightly different from the ones reported in the paper (~0.1%).* 
 
