@@ -29,13 +29,13 @@ Please download MSCOCO from [Official Website](https://cocodataset.org/#download
 
 Model | Module | Backbone | AP@val |  AP@test-dev | Link
 --- |:---:|:---:|:---:|:---:|:---:
-CMRCN | MSSA-Adp  | R-50   |  38.2/43.0 |  | [Config+Model]() 
-CMRCN | MSCA-Adp  | R-50   |  38.3/43.2 |  | [Config+Model]() 
+CMRCN | MSSA-Adp  | R-50   |  38.2/43.0 | 38.7/43.3 | [Config+Model]() 
+CMRCN | MSCA-Adp  | R-50   |  38.3/43.2 | 38.6/43.3 | [Config+Model]() 
 CMRCN | MSSA      | R-50   |  38.3/43.3 | 38.8/43.5 | [Config+Model]() 
 CMRCN | MSCA      | R-50   |  38.6/43.3 | 38.8/43.5 | [Config+Model]() 
 CMRCN | MSSA-adp  | R-101  |  39.3/44.4 | 39.8/44.8 | [Config+Model]() 
-CMRCN | MSCA-adp  | R-101  |  39.1/44.2 | 39.8/44.8 | [Config+Model]() 
-CMRCN | MSSA-adp  | X-101  |   |  | [Config+Model]() 
+CMRCN | MSCA-adp  | R-101  |  39.1/44.2 | 39.8/44.7 | [Config+Model]()
+CMRCN | MSSA-adp  | X-101  |  - | - | [Config+Model]() 
 CMRCN | MSCA-adp  | X-101  |  40.7/46.1  | 41.1/46.6 | [Config+Model]() 
 MRCN | MSSA-adp   | R-50   |  36.7/40.1 | - | [Config+Model]() 
 MRCN | MSCA-adp   | R-50   |  36.6/39.8 | - | [Config+Model]() 
