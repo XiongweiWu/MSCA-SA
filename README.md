@@ -67,9 +67,3 @@ Example:
 ```
  CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7  python  -m torch.distributed.launch --nproc_per_node=8  --master_port=${PORT:-991} tools/test.py  ./data/models/cmrcn_r101_mssa_adp/cmrcn_r101_mssa_adp.py  ./data/models/cmrcn_r101_mssa_adp/final.pth  --launcher pytorch  --eval bbox segm
 ```
-
-Example (test-dev):
-
-```
- CUDA_VISIBLE_DEVICES=0,1,2,3,4,5,6,7  python  -m torch.distributed.launch --nproc_per_node=8  --master_port=${PORT:-991} tools/test.py  ./data/models/cmrcn_r101_mssa_adp/cmrcn_r101_mssa_adp.py  ./data/models/cmrcn_r101_mssa_adp/final.pth  --launcher pytorch  --format-only  --options "jsonfile_prefix=./cmrcn_r101_mssa_adp"
-```
