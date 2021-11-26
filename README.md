@@ -43,7 +43,7 @@ CMRCN | MSSA      | R-50   |  38.3/43.3 | 38.8/43.5 | [Config+Model](https://dri
 CMRCN | MSCA      | R-50   |  38.6/43.3 | 38.8/43.5 | [Config+Model](https://drive.google.com/drive/folders/14DqzJ48Duo7LNYbUSp3gaLclnfIOIsmL?usp=sharing) 
 CMRCN | MSSA-adp  | R-101  |  39.3/44.4 | 39.8/44.8 | [Config+Model](https://drive.google.com/drive/folders/1uLE-Ykt0gzbxE3dTx4ciZZOQRLKR-XhH?usp=sharing) 
 CMRCN | MSCA-adp  | R-101  |  39.1/44.2 | 39.8/44.7 | [Config+Model](https://drive.google.com/drive/folders/18XDibJD1WZsIgguLWfLN6jeq78GSN6qg?usp=sharing)
-CMRCN | MSSA-adp  | X-101  |  - | - | [Config+Model]() 
+CMRCN | MSSA-adp  | X-101  |  40.7/46.3  | 41.2/46.7 | [Config+Model](https://drive.google.com/drive/folders/1WyiXPAL4w0DlegpY3bUshBun1cAePT5o?usp=sharing) 
 CMRCN | MSCA-adp  | X-101  |  40.7/46.1  | 41.1/46.6 | [Config+Model](https://drive.google.com/drive/folders/1P2bG83d-3nLmgoNPGj-wtMsme0q5JA0z?usp=sharing) 
 MRCN | MSSA-adp   | R-50   |  36.7/40.1 | - | [Config+Model](https://drive.google.com/drive/folders/1WyiXPAL4w0DlegpY3bUshBun1cAePT5o?usp=sharing) 
 MRCN | MSCA-adp   | R-50   |  36.6/39.8 | - | [Config+Model](https://drive.google.com/drive/folders/1eqtr6PZKz_S_hTa7ld3NumZakeahYLyL?usp=sharing) 
