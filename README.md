@@ -45,10 +45,11 @@ CMRCN | MSSA-adp  | R-101  |  39.3/44.4 | 39.8/44.8 | [Config+Model](https://dri
 CMRCN | MSCA-adp  | R-101  |  39.1/44.2 | 39.8/44.7 | [Config+Model](https://drive.google.com/drive/folders/18XDibJD1WZsIgguLWfLN6jeq78GSN6qg?usp=sharing)
 CMRCN | MSSA-adp  | X-101  |  40.7/46.3  | 41.2/46.7 | [Config+Model](https://drive.google.com/drive/folders/1WyiXPAL4w0DlegpY3bUshBun1cAePT5o?usp=sharing) 
 CMRCN | MSCA-adp  | X-101  |  40.7/46.1  | 41.1/46.6 | [Config+Model](https://drive.google.com/drive/folders/1P2bG83d-3nLmgoNPGj-wtMsme0q5JA0z?usp=sharing) 
-MRCN | MSSA-adp   | R-50   |  36.7/40.1 | - | [Config+Model](https://drive.google.com/drive/folders/1WyiXPAL4w0DlegpY3bUshBun1cAePT5o?usp=sharing) 
-MRCN | MSCA-adp   | R-50   |  36.6/39.8 | - | [Config+Model](https://drive.google.com/drive/folders/1eqtr6PZKz_S_hTa7ld3NumZakeahYLyL?usp=sharing) 
+CMRCN (ms)| MSSA-Adp  | R-50   |  40.2/45.6 | 40.9/46.0 | [Config+Model](https://drive.google.com/drive/folders/1ZVnleimDeX4iLibhQQBxaxrQ7JBZAdlv?usp=sharing) 
 
 [1] *We have re-trained some models and thus the results may be slightly different from the ones reported in the paper (~0.1%).* 
+[2] *'ms' denotes that we train the models with multiscale input and longer training epochs (36 epochs).* 
+
 
 ## Train & Test
 
