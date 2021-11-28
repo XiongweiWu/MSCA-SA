@@ -48,6 +48,7 @@ CMRCN | MSCA-adp  | X-101  |  40.7/46.1  | 41.1/46.6 | [Config+Model](https://dr
 CMRCN (ms)| MSSA-Adp  | R-50   |  40.2/45.6 | 40.9/46.0 | [Config+Model](https://drive.google.com/drive/folders/1ZVnleimDeX4iLibhQQBxaxrQ7JBZAdlv?usp=sharing) 
 
 [1] *We have re-trained some models and thus the results may be slightly different from the ones reported in the paper (~0.1%).* 
+
 [2] *'ms' denotes that we train the models with multiscale input and longer training epochs (36 epochs).* 
 
 
