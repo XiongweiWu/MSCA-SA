@@ -56,7 +56,7 @@ CMRCN | MSCA-adp  | ResNeXt-101  | 40.7 | 41.1  | 46.1 | 46.6 | [Config+Model](h
 
 ### Multi-Scale Training with 36 epochs
 
-Model | Module | Backbone | AP_{Mask}@val | AP_{Mask}@test-dev | AP_{Box}@val | AP_{Box}@test-dev | Link
+Model | Module | Backbone | AP_M@val | AP_M@test | AP_B@val | AP_B@test | Link
 --- |:---:|:---:|:---:|:---:|:---:|:---:|:---:
 CMRCN | Sum-Up       | ResNet-50   |  38.5  |      | 44.3 |      | -
 Deformable-DETR | -  | ResNet-50   |  -     | -    | 44.5 | 44.9 | -
