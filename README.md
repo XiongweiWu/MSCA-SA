@@ -51,7 +51,7 @@ CMRCN | MSSA-adp  | ResNeXt-101  | 40.7 | 41.2 | 46.3 | 46.7 | [Config+Model](ht
 CMRCN | MSCA-adp  | ResNeXt-101  | 40.7 | 41.1  | 46.1 | 46.6 | [Config+Model](https://drive.google.com/drive/folders/1P2bG83d-3nLmgoNPGj-wtMsme0q5JA0z?usp=sharing) 
 
 [1] *We have re-trained some models and thus the results may be slightly different from the ones reported in the paper (~0.1%).*\
-[2] *"AP_M" and "AP_B" denote the AP on Mask and Box evaluation. "Test" denotes MSCOCO test-dev 2017 set.*
+[2] *AP_M and AP_B denote the AP on Mask and Box evaluation. Test denotes MSCOCO test-dev 2017 set.*
 
 
 ### Multi-Scale Training with 36 epochs
