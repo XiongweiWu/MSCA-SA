@@ -37,7 +37,7 @@ Please download MSCOCO from [Official Website](https://cocodataset.org/#download
 
 ### Single-Scale Training with 12 epochs
 
-Model | Module | Backbone | AP_{Mask}@val | AP_{Mask}@test-dev | AP_{Box}@val | AP_{Box}@test-dev | Link
+Model | Module | Backbone | AP_M@val | AP_M@test | AP_B@val | AP_B@test | Link
 --- |:---:|:---:|:---:|:---:|:---:|:---:|:---:
 CMRCN | Sum-Up  | ResNet-50   | 35.9  | 36.1 | 41.2 | 41.5 | -
 Deformable-DETR | -  | ResNet-50   |  - | - | 37.6 | 38.0 | -
@@ -50,7 +50,8 @@ CMRCN | MSCA-adp  | ResNet-101  |  39.1 | 39.8 | 44.2 | 44.7 | [Config+Model](ht
 CMRCN | MSSA-adp  | ResNeXt-101  | 40.7 | 41.2 | 46.3 | 46.7 | [Config+Model](https://drive.google.com/drive/folders/1WyiXPAL4w0DlegpY3bUshBun1cAePT5o?usp=sharing) 
 CMRCN | MSCA-adp  | ResNeXt-101  | 40.7 | 41.1  | 46.1 | 46.6 | [Config+Model](https://drive.google.com/drive/folders/1P2bG83d-3nLmgoNPGj-wtMsme0q5JA0z?usp=sharing) 
 
-[1] *We have re-trained some models and thus the results may be slightly different from the ones reported in the paper (~0.1%).*
+[1] *We have re-trained some models and thus the results may be slightly different from the ones reported in the paper (~0.1%).*\
+[2] *"AP_M" and "AP_B" denote the AP on Mask and Box evaluation. "Test" denotes MSCOCO test-dev 2017 datasets.*
 
 
 ### Multi-Scale Training with 36 epochs
