@@ -35,20 +35,32 @@ Please download MSCOCO from [Official Website](https://cocodataset.org/#download
 
 ## MSCOCO Benchmark and model zoo
 
-Model | Module | Backbone | AP@val |  AP@test-dev | Link
---- |:---:|:---:|:---:|:---:|:---:
-CMRCN | MSSA-Adp  | R-50   |  38.2/43.0 | 38.7/43.3 | [Config+Model](https://drive.google.com/drive/folders/1IsvKaSSoA_MzkqqZLJ1QvRSuUOSnM0u1?usp=sharing) 
-CMRCN | MSCA-Adp  | R-50   |  38.3/43.2 | 38.6/43.3 | [Config+Model](https://drive.google.com/drive/folders/1PfoFdVq4jJevW_PHaXY8J8QGSMw6HDt9?usp=sharing) 
-CMRCN | MSSA      | R-50   |  38.3/43.3 | 38.8/43.5 | [Config+Model](https://drive.google.com/drive/folders/1ZOWb2xfP1CvSo30GDyOa-yPUOfNFzj0f?usp=sharing) 
-CMRCN | MSCA      | R-50   |  38.6/43.3 | 38.8/43.5 | [Config+Model](https://drive.google.com/drive/folders/14DqzJ48Duo7LNYbUSp3gaLclnfIOIsmL?usp=sharing) 
-CMRCN | MSSA-adp  | R-101  |  39.3/44.4 | 39.8/44.8 | [Config+Model](https://drive.google.com/drive/folders/1uLE-Ykt0gzbxE3dTx4ciZZOQRLKR-XhH?usp=sharing) 
-CMRCN | MSCA-adp  | R-101  |  39.1/44.2 | 39.8/44.7 | [Config+Model](https://drive.google.com/drive/folders/18XDibJD1WZsIgguLWfLN6jeq78GSN6qg?usp=sharing)
-CMRCN | MSSA-adp  | X-101  |  40.7/46.3  | 41.2/46.7 | [Config+Model](https://drive.google.com/drive/folders/1WyiXPAL4w0DlegpY3bUshBun1cAePT5o?usp=sharing) 
-CMRCN | MSCA-adp  | X-101  |  40.7/46.1  | 41.1/46.6 | [Config+Model](https://drive.google.com/drive/folders/1P2bG83d-3nLmgoNPGj-wtMsme0q5JA0z?usp=sharing) 
-CMRCN (ms)| MSSA-Adp  | R-50   |  40.2/45.6 | 40.9/46.0 | [Config+Model](https://drive.google.com/drive/folders/1ZVnleimDeX4iLibhQQBxaxrQ7JBZAdlv?usp=sharing) 
+### Single-Scale Training with 12 epochs
 
-[1] *We have re-trained some models and thus the results may be slightly different from the ones reported in the paper (~0.1%).* \
-[2] *'ms' denotes that we train the models with multiscale input and longer training epochs (36 epochs).* 
+Model | Module | Backbone | AP_{Mask}@val | AP_{Mask}@test-dev | AP_{Box}@val | AP_{Box}@test-dev | Link
+--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:
+CMRCN | Sum-Up  | ResNet-50   | 35.9  | 36.1 | 41.2 | 41.5 | -
+Deformable-DETR | -  | ResNet-50   |  - | - | 37.6 | 38.0 | -
+CMRCN | MSSA-Adp  | ResNet-50   |  38.2 | 38.7 | 43.0 | 43.3 | [Config+Model](https://drive.google.com/drive/folders/1IsvKaSSoA_MzkqqZLJ1QvRSuUOSnM0u1?usp=sharing) 
+CMRCN | MSCA-Adp  | ResNet-50   |  38.3 | 38.6 | 43.2 | 43.3 | [Config+Model](https://drive.google.com/drive/folders/1PfoFdVq4jJevW_PHaXY8J8QGSMw6HDt9?usp=sharing) 
+CMRCN | MSSA      | ResNet-50   |  38.3 | 38.8 | 43.3 | 43.5 | [Config+Model](https://drive.google.com/drive/folders/1ZOWb2xfP1CvSo30GDyOa-yPUOfNFzj0f?usp=sharing) 
+CMRCN | MSCA      | ResNet-50   |  38.6 | 38.8 | 43.3 | 43.5 | [Config+Model](https://drive.google.com/drive/folders/14DqzJ48Duo7LNYbUSp3gaLclnfIOIsmL?usp=sharing) 
+CMRCN | MSSA-adp  | ResNet-101  |  39.3 | 39.8 | 44.4 | 44.8 | [Config+Model](https://drive.google.com/drive/folders/1uLE-Ykt0gzbxE3dTx4ciZZOQRLKR-XhH?usp=sharing) 
+CMRCN | MSCA-adp  | ResNet-101  |  39.1 | 39.8 | 44.2 | 44.7 | [Config+Model](https://drive.google.com/drive/folders/18XDibJD1WZsIgguLWfLN6jeq78GSN6qg?usp=sharing)
+CMRCN | MSSA-adp  | ResNeXt-101  | 40.7 | 41.2 | 46.3 | 46.7 | [Config+Model](https://drive.google.com/drive/folders/1WyiXPAL4w0DlegpY3bUshBun1cAePT5o?usp=sharing) 
+CMRCN | MSCA-adp  | ResNeXt-101  | 40.7 | 41.1  | 46.1 | 46.6 | [Config+Model](https://drive.google.com/drive/folders/1P2bG83d-3nLmgoNPGj-wtMsme0q5JA0z?usp=sharing) 
+
+[1] *We have re-trained some models and thus the results may be slightly different from the ones reported in the paper (~0.1%).*
+
+
+### Multi-Scale Training with 36 epochs
+
+Model | Module | Backbone | AP_{Mask}@val | AP_{Mask}@test-dev | AP_{Box}@val | AP_{Box}@test-dev | Link
+--- |:---:|:---:|:---:|:---:|:---:|:---:|:---:
+CMRCN | Sum-Up       | ResNet-50   |  38.5  |      | 44.3 |      | -
+Deformable-DETR | -  | ResNet-50   |  -     | -    | 44.5 | 44.9 | -
+CMRCN (ms)| MSSA-Adp | ResNet-50   |  40.2  | 40.9 | 45.6 | 46.0 | [Config+Model](https://drive.google.com/drive/folders/1ZVnleimDeX4iLibhQQBxaxrQ7JBZAdlv?usp=sharing) 
+CMRCN (ms)| MSCA-Adp | ResNet-50   |  40.3  |      | 45.5 |      | [Config+Model]() 
 
 
 ## Train & Test
