@@ -59,9 +59,9 @@ CMRCN (ours)| MSCA-adp  | ResNeXt-101  | 40.7 | 41.1  | 46.1 | 46.6 | [Config+Mo
 Model | Module | Backbone | AP_M@val | AP_M@test | AP_B@val | AP_B@test | Link
 --- |:---:|:---:|:---:|:---:|:---:|:---:|:---:
 Deformable-DETR | -  | ResNet-50   |  -     | -    | 44.5 | 44.9 | -
-CMRCN | Sum-Up       | ResNet-50   |  38.5  | 38.7 | 44.3 | 44.6 | -
+CMRCN | Sum-Up       | ResNet-50   |  38.5  | 38.7 | 44.3 | 44.5 | -
 CMRCN (ours) | MSSA-Adp | ResNet-50   |  40.2  | 40.9 | 45.6 | 46.0 | [Config+Model](https://drive.google.com/drive/folders/1ZVnleimDeX4iLibhQQBxaxrQ7JBZAdlv?usp=sharing) 
-CMRCN (ours)| MSCA-Adp | ResNet-50   |  40.3  | 40.9 | 45.5 | 45.9 | [Config+Model](https://drive.google.com/drive/folders/1GVDF5OJ4rcc9VPx05IQIL0OAsGnhtR2f?usp=sharing) 
+CMRCN (ours)| MSCA-Adp | ResNet-50   |  40.3  | 40.8 | 45.5 | 45.9 | [Config+Model](https://drive.google.com/drive/folders/1GVDF5OJ4rcc9VPx05IQIL0OAsGnhtR2f?usp=sharing) 
 
 [1] *AP_M and AP_B denote the AP on Mask and Box evaluation. Test denotes MSCOCO test-dev 2017 set.*
 
