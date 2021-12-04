@@ -58,7 +58,7 @@ CMRCN (ours)| MSCA-adp  | ResNeXt-101  | 40.7 | 41.1  | 46.1 | 46.6 | [Config+Mo
 
 Model | Module | Backbone | Mem(GB) | FPS | AP_M@val | AP_M@test | AP_B@val | AP_B@test | Link
 --- |:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:|:---:
-Deformable-DETR | -     | ResNet-50   | -   | -    |  -     |  -    | 44.5 | 44.9 | -
+Deformable-DETR | -     | ResNet-50   | 3.5 | 16.8 |  -     |  -    | 44.5 | 44.9 | -
 CMRCN | Sum-Up          | ResNet-50   | 4.9 | 13.1 |  38.5  |  38.7 | 44.3 | 44.5 | -
 CMRCN (ours) | MSSA-Adp | ResNet-50   | 5.7 | 12.8 |  40.2  |  40.9 | 45.6 | 46.0 | [Config+Model](https://drive.google.com/drive/folders/1ZVnleimDeX4iLibhQQBxaxrQ7JBZAdlv?usp=sharing) 
 CMRCN (ours)| MSCA-Adp  | ResNet-50   | 5.7 | 12.8 |  40.3  | 40.8 | 45.5 | 45.9  | [Config+Model](https://drive.google.com/drive/folders/1GVDF5OJ4rcc9VPx05IQIL0OAsGnhtR2f?usp=sharing) 
