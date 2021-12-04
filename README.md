@@ -39,8 +39,8 @@ Please download MSCOCO from [Official Website](https://cocodataset.org/#download
 
 Model | Module | Backbone | AP_M@val | AP_M@test | AP_B@val | AP_B@test | Link
 --- |:---:|:---:|:---:|:---:|:---:|:---:|:---:
-CMRCN | Sum-Up  | ResNet-50   | 35.9  | 36.1 | 41.2 | 41.5 | -
 Deformable-DETR | -  | ResNet-50   |  - | - | 37.6 | 38.0 | -
+CMRCN | Sum-Up  | ResNet-50   | 35.9  | 36.1 | 41.2 | 41.5 | -
 CMRCN | MSSA-Adp  | ResNet-50   |  38.2 | 38.7 | 43.0 | 43.3 | [Config+Model](https://drive.google.com/drive/folders/1IsvKaSSoA_MzkqqZLJ1QvRSuUOSnM0u1?usp=sharing) 
 CMRCN | MSCA-Adp  | ResNet-50   |  38.3 | 38.6 | 43.2 | 43.3 | [Config+Model](https://drive.google.com/drive/folders/1PfoFdVq4jJevW_PHaXY8J8QGSMw6HDt9?usp=sharing) 
 CMRCN | MSSA      | ResNet-50   |  38.3 | 38.8 | 43.3 | 43.5 | [Config+Model](https://drive.google.com/drive/folders/1ZOWb2xfP1CvSo30GDyOa-yPUOfNFzj0f?usp=sharing) 
@@ -58,10 +58,12 @@ CMRCN | MSCA-adp  | ResNeXt-101  | 40.7 | 41.1  | 46.1 | 46.6 | [Config+Model](h
 
 Model | Module | Backbone | AP_M@val | AP_M@test | AP_B@val | AP_B@test | Link
 --- |:---:|:---:|:---:|:---:|:---:|:---:|:---:
-CMRCN | Sum-Up       | ResNet-50   |  38.5  | 38.7 | 44.3 | 44.6 | -
 Deformable-DETR | -  | ResNet-50   |  -     | -    | 44.5 | 44.9 | -
-CMRCN (ms)| MSSA-Adp | ResNet-50   |  40.2  | 40.9 | 45.6 | 46.0 | [Config+Model](https://drive.google.com/drive/folders/1ZVnleimDeX4iLibhQQBxaxrQ7JBZAdlv?usp=sharing) 
-CMRCN (ms)| MSCA-Adp | ResNet-50   |  40.3  | 40.9 | 45.5 | 45.9 | [Config+Model](https://drive.google.com/drive/folders/1GVDF5OJ4rcc9VPx05IQIL0OAsGnhtR2f?usp=sharing) 
+CMRCN | Sum-Up       | ResNet-50   |  38.5  | 38.7 | 44.3 | 44.6 | -
+CMRCN | MSSA-Adp | ResNet-50   |  40.2  | 40.9 | 45.6 | 46.0 | [Config+Model](https://drive.google.com/drive/folders/1ZVnleimDeX4iLibhQQBxaxrQ7JBZAdlv?usp=sharing) 
+CMRCN | MSCA-Adp | ResNet-50   |  40.3  | 40.9 | 45.5 | 45.9 | [Config+Model](https://drive.google.com/drive/folders/1GVDF5OJ4rcc9VPx05IQIL0OAsGnhtR2f?usp=sharing) 
+
+[1] *AP_M and AP_B denote the AP on Mask and Box evaluation. Test denotes MSCOCO test-dev 2017 set.*
 
 
 ## Train & Test
