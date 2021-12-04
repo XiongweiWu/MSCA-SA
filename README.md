@@ -63,7 +63,7 @@ CMRCN | Sum-Up          | ResNet-50   | 4.9 | 13.1 |  38.5  |  38.7 | 44.3 | 44.
 CMRCN (ours) | MSSA-Adp | ResNet-50   | 5.7 | 12.8 |  40.2  |  40.9 | 45.6 | 46.0 | [Config+Model](https://drive.google.com/drive/folders/1ZVnleimDeX4iLibhQQBxaxrQ7JBZAdlv?usp=sharing) 
 CMRCN (ours)| MSCA-Adp  | ResNet-50   | 5.7 | 12.8 |  40.3  | 40.8 | 45.5 | 45.9  | [Config+Model](https://drive.google.com/drive/folders/1GVDF5OJ4rcc9VPx05IQIL0OAsGnhtR2f?usp=sharing) 
 
-[1] *AP_M and AP_B denote the AP on Mask and Box evaluation. Test denotes MSCOCO test-dev 2017 set.*
+[1] *AP_M and AP_B denote the AP on Mask and Box evaluation. Test denotes MSCOCO test-dev 2017 set.*\
 [2] *The Mem and FPS are for inference stage, where the models are evaluated on 8 A-100 cards with 10k images.*
 
 ## Train & Test
