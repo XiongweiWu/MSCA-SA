@@ -1,7 +1,8 @@
-# Attention-based Feature Aggregation (ID: 9754)
+# Attention-based Feature Aggregation
 
 ## Introduction
-CVPR-22 submission ID:9754
+
+A simple yet effecive transformer-based module for feature aggregation. Please read our [technical report](https://openreview.net/pdf?id=PZoy8i_Dp6)
 
 
 ## License
